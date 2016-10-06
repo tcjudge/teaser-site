@@ -2,7 +2,7 @@
 
 body {
     position: relative;
-    background-image: url('images/__bg.png');
+    background-image: url('images/bg.png');
     background-attachment: fixed;
     height: 100%;
     padding-top: 50px;
