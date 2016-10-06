@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    background-image: url('images/__bg.png');
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 50px;
+}
+
+/* content-boxの設定 */
+.content-box {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 40px 40px;
+    background: white;
+    border-radius: 5px;
+    border: 4px solid #8ed8f9;
+}
+.content-box:before, .content-box:after {
+    position: absolute;
+    content: "";
+    height: 75px;
+    width: 59px;
+}
+.content-box:before {
+    background-image: url('images/corner-left.png');
+    top: -10px;
+    left: -10px;
+}
+.content-box:after {
+    background-image: url('images/corner-right.png');
+    bottom: -10px;
+    right: -10px;
+}
+
+/* ユーティリティクラス */
+.scroll-box {
+    height: 100px;
+    margin-top: 10px;
+    overflow: scroll;
+    border: #bbb 1px solid;
+}
+
+.bg-translucent-black {
+    color: #fff;
+    background-color: rgba(33, 33, 33, 0.7);
+}
+
+/* トップの設定 */
+.go-contest-site-bg {
+   background-image: url("images/go-contest-site-bg.jpg"); 
+   background-size: cover;
+   background-position: center;
+}
+.btn-go-contest-site {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(33, 33, 33, 0.7);
+    border: 3px solid #333;
+}
+.btn-go-contest-site:hover {
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px solid #333;
+}
+
+#count-down-days {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* フッターの設定 */
+#footer {
+    color: #555;
+    font-size: 12px;
+    padding: 40px 30px 20px;
+    background-color: #fff;
+}
+
+
