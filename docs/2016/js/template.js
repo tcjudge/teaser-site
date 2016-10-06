@@ -61,10 +61,7 @@ $(document).ready(function () {
 
 
     var footer_html = (function (){/*
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/teracoder.png"> |　<a href="http://info.cse.kyoto-su.ac.jp">京都産業大学コンピュータ理工学部</a>　|　<a href="http://info.cse.kyoto-su.ac.jp/?page_id=6">寺子屋</a>　|</div>
-            <div class="col-xs-6 col-sm-6 col-md-6 text-right">© 2016 寺子屋 TeraCoder運営スタッフ. All rights reserved.</div>   
-        </div>
+        <img src="images/address.png" style="width:100%;"/>
     */}).toString().split("*")[1];
     $("#footer").append(footer_html);
 });
