@@ -8,6 +8,11 @@ body {
     padding-top: 50px;
 }
 
+.table-responsive tr {
+    white-space: nowrap;
+}
+
+
 /* content-boxの設定 */
 .content-box {
     position: relative;

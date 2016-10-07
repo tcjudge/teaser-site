@@ -45,13 +45,15 @@ $(document).ready(function () {
         $('#nav-item4-text').append(' <span class="sr-only">(current)</span>');
     }
 
-    function getDaysLeft() {
+    function getDaysLeft(y, m, d) {
         var currentDay = new Date().getTime();
-        var targetDay = new Date(2016, 11, 19).getTime();  
+        var targetDay = new Date(2016, 11-1, 19).getTime();  
 
         var diffMsec = targetDay - currentDay;
         var diffDays = diffMsec / (1000 * 60 * 60 * 24);
         var daysLeft = Math.ceil(diffDays);
+
+        if (daysLeft < 0) daysLeft = 0;
 
         return daysLeft;
     }
