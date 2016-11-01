@@ -4,7 +4,7 @@ $(document).ready(function () {
             &#9776;
             </button>
             <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                <a class="navbar-brand" href="#"><img src="images/teracoder.png"/></a>
+                <a class="navbar-brand" href="index.html"><img src="images/teracoder.png"/></a>
                 <ul class="nav navbar-nav">
                     <li class="nav-item" id="nav-item1">
                         <a class="nav-link" href="index.html" id="nav-item1-text">ホーム</a>
