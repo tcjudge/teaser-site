@@ -2,8 +2,9 @@
 
 body {
     position: relative;
-    background-image: url('images/sagittarius-kan_l_.png');
+    /* background-image: url('images/sagittarius-kan_l_.png'); */
     /* background-image: url('images/bg.png'); */
+    background-image: url('images/bg_shinki.png');
     background-attachment: fixed;
     height: 100%;
     padding-top: 50px;
