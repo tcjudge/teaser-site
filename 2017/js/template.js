@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     function getDaysLeft(y, m, d) {
         var currentDay = new Date().getTime();
-        var targetDay = new Date(2016, 11-1, 19).getTime();  
+        var targetDay = new Date(2017, 11-1, 25).getTime();
 
         var diffMsec = targetDay - currentDay;
         var diffDays = diffMsec / (1000 * 60 * 60 * 24);
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
         return daysLeft;
     }
-    
+
     var days = getDaysLeft();
     $("#count-down-days").text(days);
 
