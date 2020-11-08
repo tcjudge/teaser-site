@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     function getDaysLeft(y, m, d) {
         var currentDay = new Date().getTime();
-        var targetDay = new Date(2020, 12-1, 5).getTime();
+        var targetDay = new Date(2020, 11-1, 28).getTime();
 
         var diffMsec = targetDay - currentDay;
         var diffDays = diffMsec / (1000 * 60 * 60 * 24);
