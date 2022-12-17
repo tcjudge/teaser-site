@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     function getDaysLeft(y, m, d) {
         var currentDay = new Date().getTime();
-        var targetDay = new Date(2021, 11-1, 27).getTime();
+        var targetDay = new Date(2022, 12-1, 25).getTime();
 
         var diffMsec = targetDay - currentDay;
         var diffDays = diffMsec / (1000 * 60 * 60 * 24);
