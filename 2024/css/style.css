@@ -84,4 +84,7 @@ body {
     color: #555;
 }
 
-
+/* アクティブなタブに架線を追加 */
+.nav-item.active > .nav-link {
+    text-decoration: underline; /* 下線を追加 */
+}
