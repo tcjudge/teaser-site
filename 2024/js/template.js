@@ -30,17 +30,14 @@ $(document).ready(function () {
 
     var filename = window.location.href.match(".+/(.+?)([\?#;].*)?$")[1];
     console.log(filename);
-    if (filename == "index.html") {
-        $('#nav-item1').addClass("active");
-    }
-    else if (filename == "rule.html") {
-        $('#nav-item2').addClass("active");
-    }
-    else if (filename == "prize.html") {
-        $('#nav-item3').addClass("active");
-    }
-    else if (filename == "practice.html") {
-        $('#nav-item4').addClass("active");
+    if (filename === "index.html") {
+        $('#nav-item1 a').addClass("active");
+    } else if (filename === "rule.html") {
+        $('#nav-item2 a').addClass("active");
+    } else if (filename === "prize.html") {
+        $('#nav-item3 a').addClass("active");
+    } else if (filename === "practice.html") {
+        $('#nav-item4 a').addClass("active");
     }
 
     function getDaysLeft(y, m, d) {

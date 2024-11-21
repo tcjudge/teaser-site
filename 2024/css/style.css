@@ -84,7 +84,22 @@ body {
     color: #555;
 }
 
-/* アクティブなタブに架線を追加 */
-.nav-item.active > .nav-link {
-    text-decoration: underline; /* 下線を追加 */
+.nav-link {
+    position: relative; /* 架線の位置を調整するために必要 */
+    text-decoration: none; /* デフォルトの下線を削除 */
+}
+
+.nav-link::after {
+    content: ""; /* 架線用の要素 */
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* テキストから少し下に配置 */
+    width: 0;
+    height: 2px; /* 下線の太さ */
+    background-color: white; /* 下線の色 */
+    transition: width 0.3s ease; /* アニメーションのスムーズさ */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* ホバー時に全幅の下線を表示 */
 }
