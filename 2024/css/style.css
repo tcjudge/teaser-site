@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html {
+  scroll-padding-top: 70px; /* 固定ヘッダの高さ分 */
+}
+
 body {
     position: relative;
     /* background-image: url('images/sagittarius-kan_l_.png'); */
