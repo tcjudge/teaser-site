@@ -14,6 +14,11 @@ body {
     padding-top: 50px;
 }
 
+.container {
+    max-width: 1140px; /* Bootstrap 4のxlの最大横幅 */
+}
+
+
 .table-responsive tr {
     white-space: nowrap;
 }
