@@ -14,7 +14,7 @@ $(document).ready(function () {
                             <a class="nav-link" href="rule.html" id="nav-item2-text">ルール</a>
                         </li>
                         <li class="nav-item" id="nav-item3">
-                            <a class="nav-link" href="prize.html" id="nav-item3-text">賞品</a>
+                            <a class="nav-link" href="prize.html" id="nav-item3-text">表彰</a>
                         </li>
                         <li class="nav-item" id="nav-item4">
                             <a class="nav-link" href="practice.html" id="nav-item4-text">練習</a>
