@@ -135,3 +135,26 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+/* スポンサーロゴのスタイル */
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-logo {
+    max-width: 250px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.sponsor-logo:hover {
+    transform: scale(1.05);
+}
