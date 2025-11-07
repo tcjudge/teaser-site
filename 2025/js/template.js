@@ -4,7 +4,7 @@ $(document).ready(function () {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/teracoder.png"/></a>
+                <a class="navbar-brand" href="index.html"><img src="images/teracoder-logo-dark.svg"/></a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav navbar-nav">
                         <li class="nav-item" id="nav-item1">

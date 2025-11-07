@@ -112,3 +112,26 @@ body {
 .nav-link:hover::after {
     width: 100%; /* ホバー時に全幅の下線を表示 */
 }
+
+/* ロゴ画像のサイズ制御 */
+.navbar-brand img {
+    height: 30px; /* ナビゲーションバーに適した高さ */
+    width: auto;
+    margin-left: 10px;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: 250px; /* 最大幅を調整 */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* 中央寄せ */
+}
+
+.content-logo {
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
