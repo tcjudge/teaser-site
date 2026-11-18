@@ -17,7 +17,7 @@ $(document).ready(function () {
                             <a class="nav-link" href="prize.html" id="nav-item3-text">表彰</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://tcjudge.kyoto-su.ac.jp">会場</a>
+                            <a class="nav-link" href="http://tcjudge.kyoto-su.ac.jp">コンテスト</a>
                         </li>
                     </ul>
                 </div>
